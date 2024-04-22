@@ -2,16 +2,16 @@ import Category from '../models/category';
 import Meal from '../models/meal';
 
 export const CATEGORIES = [
-  new Category('c1', 'Italian', '#f5428d'),
-  new Category('c2', 'Quick & Easy', '#f54242'),
-  new Category('c3', 'Hamburgers', '#f5a442'),
-  new Category('c4', 'German', '#f5d142'),
-  new Category('c5', 'Light & Lovely', '#368dff'),
-  new Category('c6', 'Exotic', '#41d95d'),
-  new Category('c7', 'Breakfast', '#9eecff'),
-  new Category('c8', 'Asian', '#b9ffb0'),
-  new Category('c9', 'French', '#ffc7ff'),
-  new Category('c10', 'Summer', '#47fced')
+  new Category('c1', 'Italian', '#f5428d', 'https://harryapps.s3.ap-south-1.amazonaws.com/italian-cuisine-pizza-pasta-and-toasts.png'),
+  new Category('c2', 'Quick & Easy', '#f54242', 'https://harryapps.s3.ap-south-1.amazonaws.com/top-view-over-a-dining-table-decorated-with-flowe.png'),
+  new Category('c3', 'Hamburgers', '#f5a442', 'https://harryapps.s3.ap-south-1.amazonaws.com/ooking-burgers-in-the-kitchen-at-home.png'),
+  new Category('c4', 'German', '#f5d142', 'https://harryapps.s3.ap-south-1.amazonaws.com/oktoberfest-dishes-with-beer-pretzel-and-sausage.png'),
+  new Category('c5', 'Light & Lovely', '#368dff', 'https://harryapps.s3.ap-south-1.amazonaws.com/salad-with-avocado-nuts-and-sweet-corn.png'),
+  new Category('c6', 'Exotic', '#41d95d', 'https://harryapps.s3.ap-south-1.amazonaws.com/woman-serving-table-for-festive-dinner.png'),
+  new Category('c7', 'Breakfast', '#9eecff', 'https://harryapps.s3.ap-south-1.amazonaws.com/turkish-breakfast-top-view.png'),
+  new Category('c8', 'Asian', '#b9ffb0', 'https://harryapps.s3.ap-south-1.amazonaws.com/indian-assorted-vegetarian-food-in-plate-and-servi.png'),
+  new Category('c9', 'French', '#ffc7ff', 'https://harryapps.s3.ap-south-1.amazonaws.com/top-view-delicious-fruity-pie-with-nuts-on-dark-ba.png'),
+  new Category('c10', 'Summer', '#47fced', 'https://harryapps.s3.ap-south-1.amazonaws.com/picnic-with-fruits-and-meat-outdoors.png')
 ];
 
 export const MEALS = [
