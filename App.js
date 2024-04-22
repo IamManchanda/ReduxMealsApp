@@ -54,7 +54,7 @@ function DrawerNavigator() {
 export default function App() {
   return (
     <Fragment>
-      <StatusBar style="light" />
+      <StatusBar style="light" backgroundColor="#351401" />
       <Provider store={store}>
         <NavigationContainer>
           <Stack.Navigator
