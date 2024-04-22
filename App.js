@@ -10,7 +10,7 @@ import CategoriesScreen from './screens/CategoriesScreen';
 import MealsOverviewScreen from './screens/MealsOverviewScreen';
 import MealDetailScreen from './screens/MealDetailScreen';
 import FavoritesScreen from './screens/FavoritesScreen';
-import FavoritesContextProvider from './store/context/favorites-context';
+import FavoritesContextProvider from './store/favorites-context';
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
